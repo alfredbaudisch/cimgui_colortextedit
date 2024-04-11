@@ -1,6 +1,8 @@
 # ImGuiColorTextEdit C Interface
 C interface for [ImGuiColorTextEdit](https://github.com/BalazsJako/ImGuiColorTextEdit), a syntax highlighting text editor for ImGui, on top of [cimgui](https://github.com/cimgui/cimgui).
 
+![image](https://github.com/alfredbaudisch/cimgui_colortextedit/assets/248383/7d83bbc5-527a-443b-ae2f-a9ff66c33b71)
+
 ## Usage
 
 ```c
@@ -8,7 +10,6 @@ C interface for [ImGuiColorTextEdit](https://github.com/BalazsJako/ImGuiColorTex
 
 TextEditor *editor = ImColorTextEdit_TextEditor();
 ImColorTextEdit_TextEditor_SetText(editor, "Some text\r\nSome other text\r\n{\"some_json\": true}\r\n// Code comment");
-
 
 // In the render loop...
 ImColorTextEdit_TextEditor_Render(editor, "TextEditor");
