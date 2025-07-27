@@ -3,6 +3,8 @@ C interface for [ImGuiColorTextEdit](https://github.com/BalazsJako/ImGuiColorTex
 
 ![image](https://github.com/alfredbaudisch/cimgui_colortextedit/assets/248383/7d83bbc5-527a-443b-ae2f-a9ff66c33b71)
 
+Alternative project, auto-generated bindings: https://github.com/cimgui/cimCTE
+
 ## Usage
 
 ```c
